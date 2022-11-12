@@ -1,0 +1,160 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.main-div {
+  background-image: url(../images/backcover.svg);
+  background-repeat: no-repeat;
+  background-size: 72% auto;
+  height: 100vh;
+  width: 100%;
+  background-position: right bottom 20px;
+}
+
+.bg-img {
+  position: relative;
+  right: 25%;
+  top: 5px;
+}
+
+.bg-img img {
+  height: 90vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: #1f2873;
+  padding-top: 25px;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-items {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+}
+
+h5.nav-item {
+  padding: 0px 20px;
+}
+
+nav div:nth-child(3) {
+  align-self: center;
+}
+
+.signin-btn {
+  border: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(90deg, #965cf2 20%, #ff8adc);
+  color: white;
+  border-radius: 30px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 8%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+}
+
+.left-section h1 {
+  color: #3e4794;
+  font-weight: bolder;
+  font-size: 50px;
+  margin: 0;
+}
+
+.left-section h4 {
+  color: #1e2353;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 35px;
+  margin-right: 50%;
+}
+
+.learn-more-btn {
+  border: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(90deg, #965cf2 20%, #ff8adc);
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 50px;
+  right: 58%;
+}
+
+.circle {
+  position: absolute;
+  top: 10px;
+  left: 65px;
+}
+
+@media (max-width:500px){
+  
+  .main-div {
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    background-position: right top;
+  }
+
+  nav{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .nav-items{
+    /* display: flex; */
+    /* flex-direction: column;
+    text-align: center; */
+    display: none;
+  }
+
+  .intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .bg-img img {
+    height: 50vh;
+  }
+
+  .bg-img {
+    position: relative;
+    right: 5%;
+    top: 10px;
+  }
+
+  .left-section {
+    text-align: center;
+  }
+
+  .left-section h4 {
+    margin: 0;
+  }
+
+  .learn-more-btn {
+    margin-bottom: 25px;
+  }
+
+}
