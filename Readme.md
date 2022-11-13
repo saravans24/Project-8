@@ -14,4 +14,4 @@ Here's the Live Deployed Website ![Project 8](https://img.shields.io/badge/Proje
 - I learned how to use Illustrations.
 - I learned to use Media Query
 
-## This project took around 2cd hours to complete.
+## This project took around 2 hours to complete.
